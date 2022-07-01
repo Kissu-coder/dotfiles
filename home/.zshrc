@@ -31,7 +31,7 @@ subs="--write-sub --write-auto-sub --compat-options no-keep-subs --sub-lang en -
 playlist="-o '%(playlist)s/%(playlist_index)s - %(title)s_%(id)s.%(ext)s'"
 alias ytb="$yt_common $subs $down_format --merge-output-format mkv --embed-thumbnail"
 alias ytp="$aliases[ytb] $playlist"
-alias yta="$yt_common -f 'bestaudio[ext=m4a]/bestaudio' --embed-thumbnail"
+alias yta="$yt_common -f 'bestaudio'"
 alias ytap="$aliases[yta] $playlist"
 
 # mpv
